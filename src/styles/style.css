@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+   
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #7858A6;
+  }
+
+  .notes-app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+   
+  }
+  .notes-app h1{
+    text-align: center;
+   
+  }
+  .notes-app h3{
+    padding-top: 30px;
+    color: white;
+  }
+
+  .notes-app  h1 {
+    font-weight: normal;
+    font-size: 48px;
+    margin-bottom: 32px;
+    color: white;
+  }
+
+  .notes-item {
+    display: flex;
+    align-items: center;
+    margin: 24px 0;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #4C3575;
+  }
+ 
+  .notes-item__body {
+    margin-top: 4px;
+    margin-left: 8px;
+    padding-left: 8px;
+    font-size: 15px;
+    text-align: justify;
+    color: white;
+    /* border-left: 1px solid #aaa; */
+    flex: 1;
+  }
+
+
+  .notes-item__title {
+    padding: 4px 0;
+    margin-bottom: 3px;
+    color: white;
+    font-size: 21px;
+  }
+
+  .notes-item__date {
+    padding: 4px 0;
+    color: rgb(223, 175, 212);
+    margin-bottom: 3px;
+    font-size: 14px;
+  }
+
+  .notes-item__delete {
+    margin-left: 6px;
+    padding: 8px;
+    font-size: 18px;
+    background-color: rgb(241, 15, 15);
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .notes-item__delete:hover{
+    background-color: rgb(126, 5, 5);
+
+  }
+ 
+
+  .notes-input {
+    background-color: #371B58;
+    padding: 16px;
+    margin: 14px 0;
+    border-radius: 8px;
+    margin-bottom: 32px;
+  }
+   
+  .notes-input input {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    font-family: 'Inter', sans-serif;
+    flex: 1 1 0%;
+    padding: 1rem;
+    background-color: #4C3575;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: white;
+    font-size:1.25rem ;
+  }
+
+  .notes-input input::placeholder{
+    color: white;
+    opacity: 0.3;
+  }
+  
+  .notes-input p{
+    color: white;
+    
+  }
+  .notes-input textarea {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    height: 100px;
+    padding: 8px;
+    margin: 8px 0;
+    font-family: 'Inter', sans-serif;
+    flex: 1 1 0%;
+    padding: 1rem;
+    background-color: #4C3575;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: white;
+    font-size:1.25rem ;
+  }
+  .notes-input textarea::placeholder{
+    color: white;
+    opacity: 0.3;
+  }
+   
+  .notes-input button {
+    width: 100%;
+    border-radius: 10px;
+    padding: 8px;
+    font-family: 'Inter', sans-serif;
+    background: #c5bbd6;
+    font-size: 1rem;
+    transition: 0.4s;
+  }
+
+  .notes-input button:hover{
+    background: #9268cc;
+  }
