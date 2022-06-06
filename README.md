@@ -12,3 +12,7 @@ Selamat! Akhirnya Anda telah sampai di penghujung pembelajaran. Anda telah:
 # Kriteria
 Buatlah aplikasi web menggunakan React yang dapat menambahkan dan menghapus catatan. Agar lebih jelasnya, berikut 3 kriteria utama pada “Aplikasi Catatan Pribadi” yang harus Anda buat.
 
+
+# Fitur Kurang
+1. Live Search
+2. Arsip Data
