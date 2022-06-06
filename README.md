@@ -16,3 +16,9 @@ Buatlah aplikasi web menggunakan React yang dapat menambahkan dan menghapus cata
 # Fitur Kurang
 1. Live Search
 2. Arsip Data
+
+# Fitur Terpenuhi
+1. View Data
+2. Add Data
+3. Delete Data
+4. Count Title Length
